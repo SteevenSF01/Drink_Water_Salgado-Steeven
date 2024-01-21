@@ -1,0 +1,94 @@
+/* le background : #2D88E0ff */
+/* couleur verre : #5FA8F6ff */
+/* Couleur lettres : #1246BDff; */
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2D88E0ff;
+    background-image: url(./../src/img/3d-agua-ai-generar.jpg);
+    background-size: cover;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+ /* ******** Section 1 ********* */
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grandVerre{
+    width: 100px;
+    height: 250px;
+    position: relative;
+    background-color: white;
+    border: 5px solid #1246BDff;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    overflow: hidden;
+}
+
+.quantiteManquante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    color: #1246BDff;
+}
+
+.quantiteManquante span{
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.eauVerre{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #5FA8F6ff;
+    text-align: center;
+    color:#1246BDff ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s ease;
+}
+
+
+/* ********* Section 2 ******** */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.petitVerre{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 5px solid #1246BDff;
+    color: #1246BDff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.verreBu{
+    color: white;
+    background-color: #5FA8F6ff;
+    transition: 0.5s;
+}
